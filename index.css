@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=JetBrains+Mono&display=swap');
+
+body {
+  background-color: #030712; /* dark:bg-c42-dark-bg from DESIGN_SYSTEM.md */
+  color: rgba(255, 255, 255, 0.75); /* dark:text-c42-text-dark-secondary from DESIGN_SYSTEM.md */
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  padding: 0;
+}

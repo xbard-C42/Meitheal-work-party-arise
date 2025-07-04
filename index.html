@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Democratic Ireland</title>
+  <link rel="stylesheet" href="index.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            'c42-dark-bg': '#030712',
+            'c42-dark-card': '#111827',
+            'c42-text-dark-primary': 'rgba(255, 255, 255, 0.95)',
+            'c42-text-dark-secondary': 'rgba(255, 255, 255, 0.75)',
+            'c42-primary': '#764ba2',
+            'c42-secondary': '#06B6D4',
+            'c42-accent': '#10B981',
+            'c42-danger': '#EF4444',
+          },
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+            mono: ['JetBrains Mono', 'monospace'],
+          },
+        }
+      }
+    }
+  </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.1.0",
+    "react-dom/client": "https://esm.sh/react-dom@^19.1.0/client",
+    "lucide-react": "https://esm.sh/lucide-react@^0.525.0",
+    "react/": "https://esm.sh/react@^19.1.0/",
+    "events": "https://esm.sh/events@^3.3.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.1.0/",
+    "@google/genai": "https://esm.sh/@google/genai@^1.8.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body>
+  <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
